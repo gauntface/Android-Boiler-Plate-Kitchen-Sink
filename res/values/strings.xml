@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GauntFace-Kitchen-Sink</string>
+    
+    <!-- Form Widget Titles -->
+    <string name="form_widget_title_normal_button">Normal Button</string>
+    <string name="form_widget_title_long_button">Long Button Text</string>
+    <string name="form_widget_title_toggle_button">Toggle Button</string>
+    <string name="form_widget_title_long_toggle_button">Long Toggle Button</string>
+    <string name="form_widget_title_normal_checkbox">Normal Checkbox</string>
+    <string name="form_widget_title_long_checkbox">Long Checkbox Text</string>
+    <string name="form_widget_title_radio_btn">Normal Radio Button</string>
+    <string name="form_widget_title_long_radio_btn">Long Radio Button</string>
+    <string name="form_widget_title_spinner">Normal Spinner</string>
+    <string name="form_widget_title_long_spinner">Long Spinner</string>
+    
+    <string name="form_widget_btn_text">Button Text</string>
+    <string name="form_widget_long_btn_text">Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</string>
+    <string name="form_widget_checkbox_text">Checkbox Text</string>
+    <string name="form_widget_long_checkbox_text">Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</string>
+    <string name="form_widget_toggle_btn_on">On</string>
+    <string name="form_widget_toggle_btn_off">Off</string>
+    <string name="form_widget_toggle_btn_on_long">On. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle.</string>
+    <string name="form_widget_toggle_btn_off_long">Off. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</string>
+    <string name="form_widget_radio_btn_text">Radio Button</string>
+    <string name="form_widget_long_radio_btn_text">Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</string>
+    <string name="form_widget_spinner_default_text">Choose an item</string>
+    <string name="form_widget_spinner_long_default_text">Choose an item. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</string>
+    <string-array name="form_widget_spinner_default_list">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+        <item>Item 6</item>
+        <item>Item 7</item>
+        <item>Item 8</item>
+        <item>Item 9</item>
+        <item>Item 10</item>
+        <item>Item 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+        <item>Item 14</item>
+        <item>Item 15</item>
+        <item>Item 16</item>
+        <item>Item 17</item>
+        <item>Item 18</item>
+        <item>Item 19</item>
+    </string-array>
+    
+    <string-array name="form_widget_spinner_long_list">
+        <item>Item 1. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 2. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 3. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 4. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 5. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 6. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 7. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 8. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 9. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 10. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 11. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 12. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 13. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 14. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 15. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 16. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 17. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 18. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+        <item>Item 19. Lorizzle ipsum dawg sizzle amizzle, 
+        break yo neck, yall shit nizzle. Yippiyo sapizzle velizzle, aliquet 
+        volutpizzle, da bomb sure, gravida vizzle, arcu. Pellentesque shizzlin 
+        dizzle tortizzle. Sizzle erizzle. Nizzle izzle dolor dapibus yippiyo 
+        tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
+        my nizzle.</item>
+    </string-array>
+</resources>

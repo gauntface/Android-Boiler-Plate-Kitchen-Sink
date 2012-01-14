@@ -1,0 +1,7 @@
+
+    <resources>
+        <dimen name="list_item_textview_padding">20dp</dimen>
+        <dimen name="list_item_textview_size">20sp</dimen>
+        <dimen name="fragment_form_widget_scrollview_margin">20dp</dimen>
+        <dimen name="form_widget_title_padding">20dp</dimen>
+    </resources>

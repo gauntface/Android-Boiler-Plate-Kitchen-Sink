@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/form_widget_linearlayout">
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_normal_button"
+        style="@style/form_widget_title"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+        <Button 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/form_widget_btn_text" />
+        
+        <Button 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/form_widget_btn_text"
+	    android:enabled="false" />
+        
+    </LinearLayout>
+    
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_long_button"
+        style="@style/form_widget_title"/>
+	
+	<Button 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/form_widget_long_btn_text" />
+    
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_toggle_button"
+        style="@style/form_widget_title"/>
+	
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	
+		<ToggleButton 
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:textOn="@string/form_widget_toggle_btn_on"
+	    	android:textOff="@string/form_widget_toggle_btn_off" />
+		
+		<ToggleButton 
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:textOn="@string/form_widget_toggle_btn_on"
+	    	android:textOff="@string/form_widget_toggle_btn_off"
+	    	android:enabled="false"
+	    	android:checked="true" />
+		
+		<ToggleButton 
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:textOn="@string/form_widget_toggle_btn_on"
+	    	android:textOff="@string/form_widget_toggle_btn_off"
+	    	android:enabled="false"
+	    	android:checked="false" />
+	
+	</LinearLayout>
+	
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_long_toggle_button"
+        style="@style/form_widget_title"/>
+	
+	<ToggleButton 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textOn="@string/form_widget_toggle_btn_on_long"
+	    android:textOff="@string/form_widget_toggle_btn_off_long" />
+	
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_normal_checkbox"
+        style="@style/form_widget_title"/>
+	
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/form_widget_checkbox_text"/>
+	
+	<CheckBox 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/form_widget_checkbox_text"
+    	android:enabled="false"/>
+	
+	<CheckBox 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/form_widget_checkbox_text"
+    	android:enabled="false"
+    	android:checked="true"/>
+	
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_long_checkbox"
+        style="@style/form_widget_title"/>
+	
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/form_widget_long_checkbox_text"/>
+	
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_radio_btn"
+        style="@style/form_widget_title"/>
+	
+	<RadioGroup
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+
+	    <RadioButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/form_widget_radio_btn_text" />
+
+	    <RadioButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/form_widget_radio_btn_text" />
+	    
+	</RadioGroup>
+	
+	<RadioGroup
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+
+	    <RadioButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/form_widget_radio_btn_text"
+	        android:checked="false"
+	        android:enabled="false" />
+
+	    <RadioButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/form_widget_radio_btn_text"
+	        android:checked="true"
+	        android:enabled="false" />
+	    
+	</RadioGroup>
+	
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_long_radio_btn"
+        style="@style/form_widget_title"/>
+	
+	<RadioGroup
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+
+	    <RadioButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/form_widget_long_radio_btn_text" />
+
+	    <RadioButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/form_widget_long_radio_btn_text" />
+	    
+	</RadioGroup>
+
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_spinner"
+        style="@style/form_widget_title"/>
+	
+	<Spinner
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:prompt="@string/form_widget_spinner_default_text"
+	    android:entries="@array/form_widget_spinner_default_list"
+	     />
+	
+	<Spinner
+	    android:id="@+id/form_widget_spinner_normal_disabled"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:prompt="@string/form_widget_spinner_default_text"
+	    android:entries="@array/form_widget_spinner_default_list" />
+	
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_widget_title_long_spinner"
+        style="@style/form_widget_title"/>
+	
+	<Spinner
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:prompt="@string/form_widget_spinner_long_default_text"
+	    android:entries="@array/form_widget_spinner_long_list" />
+	
+</LinearLayout>
+</ScrollView>

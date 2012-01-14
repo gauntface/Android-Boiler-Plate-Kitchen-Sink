@@ -1,0 +1,7 @@
+
+    <resources>
+        <style name="list_item_textview">
+            <item name="android:padding">@dimen/list_item_textview_padding</item>
+            <item name="android:textSize">@dimen/list_item_textview_size</item>
+        </style>
+    </resources>
