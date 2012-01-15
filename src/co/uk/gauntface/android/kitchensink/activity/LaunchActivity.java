@@ -10,6 +10,7 @@ import android.os.Bundle;
 public class LaunchActivity extends KitchenSinkActivity {
     
 	public static final String ACTION_SHOW_FORM_WIDGETS = "co.uk.gauntface.android.kitchensink.ACTION_SHOW_FORM_WIDGETS";
+	public static final String ACTION_SHOW_DIALOGS = "co.uk.gauntface.android.kitchensink.ACTION_SHOW_DIALOGS";
 	
 	/** Called when the activity is first created. */
     @Override
@@ -25,8 +26,13 @@ public class LaunchActivity extends KitchenSinkActivity {
     		Intent newIntent = null;
     		if(action.equals(ACTION_SHOW_FORM_WIDGETS)) {
     			newIntent = new Intent(getApplicationContext(), FormWidgetActivity.class);
+    		} else if(action.equals(ACTION_SHOW_DIALOGS)) {
+    			newIntent = new Intent(getApplicationContext(), DialogActivity.class);
     		}
-    		super.startActivity(newIntent);
+    		
+    		if(newIntent != null) {
+    			super.startActivity(newIntent);
+    		}
     	} else {
     		super.startActivity(intent);
     	}

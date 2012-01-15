@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="main_list_titles">
-        <item >Form Widgets</item>
+        <item>Form Widgets</item>
+        <item>Dialogs</item>
     </string-array>
+    
 	<integer name="form_widget_index">0</integer>
+	<integer name="dialog_index">1</integer>
 </resources>

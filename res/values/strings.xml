@@ -190,4 +190,9 @@
         tempizzle shizzlin dizzle. Maurizzle pellentesque pot stuff fo shizzle 
         my nizzle.</item>
     </string-array>
+    
+    <!-- Dialogs -->
+    <string name="dialogs_title_basic_dialog">Basic Dialog</string>
+    <string name="dialogs_title_alert_dialog">Alert Dialog</string>
+    
 </resources>

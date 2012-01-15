@@ -4,7 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:targetSdkVersion="15"
+    <uses-sdk android:targetSdkVersion="14"
         android:minSdkVersion="4" />
 
     <application
@@ -24,5 +24,8 @@
         
         <activity 
             android:name=".activity.FormWidgetActivity"></activity>
+        
+        <activity
+            android:name=".activity.DialogActivity"></activity>
     </application>
 </manifest>

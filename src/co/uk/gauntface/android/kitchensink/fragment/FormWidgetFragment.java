@@ -15,25 +15,18 @@ import co.uk.gauntface.android.kitchensink.R;
 import co.uk.gauntface.android.kitchensink.adapter.GroupAdapter;
 
 public class FormWidgetFragment extends KitchenSinkFragment{
-
-	private Context mContext;
 	
 	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		
-		mContext = getActivity().getApplicationContext();
+	public int setFragmentContentView() {
+		return R.layout.fragment_form_widget;
 	}
 	
 	@Override
-	public View initViews(LayoutInflater inflater, ViewGroup container,
+	public void initViews(View v, ViewGroup container,
 			Bundle savedInstanceState) {
-		View v = inflater.inflate(R.layout.fragment_form_widget, null);
 		
 		Spinner disabledSpinner = (Spinner) v.findViewById(R.id.form_widget_spinner_normal_disabled);
 		disabledSpinner.setEnabled(false);
-		
-		return v;
 	}
 
 }

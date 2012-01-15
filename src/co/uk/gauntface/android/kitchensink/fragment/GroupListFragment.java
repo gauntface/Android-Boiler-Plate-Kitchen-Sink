@@ -20,6 +20,7 @@ import co.uk.gauntface.android.kitchensink.adapter.GroupAdapter;
 public class GroupListFragment extends KitchenSinkFragment implements OnItemClickListener {
 
 	private int FORM_WIDGET_INDEX;
+	private int DIALOG_INDEX;
 	
 	private GroupAdapter mGroupAdapter;
 	private Context mContext;
@@ -29,7 +30,7 @@ public class GroupListFragment extends KitchenSinkFragment implements OnItemClic
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		Log.v(C.TAG, "GroupListFragment: onCreate()");
+		
 		mContext = getActivity().getApplicationContext();
 		
 		Resources resources = getResources();
@@ -37,20 +38,22 @@ public class GroupListFragment extends KitchenSinkFragment implements OnItemClic
 		String[] listStrings = resources.getStringArray(R.array.main_list_titles);
 		
 		FORM_WIDGET_INDEX = resources.getInteger(R.integer.form_widget_index);
+		DIALOG_INDEX = resources.getInteger(R.integer.dialog_index);
 		
 		mGroupAdapter = new GroupAdapter(mContext, listStrings);
 	}
 	
 	@Override
-	public View  initViews(LayoutInflater inflater, ViewGroup container,
+	public int setFragmentContentView() {
+		return R.layout.fragment_group_list;
+	}
+	
+	@Override
+	public void  initViews(View v, ViewGroup container,
             Bundle savedInstanceState) {
-		View v = inflater.inflate(R.layout.fragment_group_list, container, false);
-		
 		mListView = (ListView) v.findViewById(R.id.fragment_group_list_listview);
 		
 		setUpViews();
-		
-		return v;
 	}
 	
 	private void setUpViews() {
@@ -68,14 +71,17 @@ public class GroupListFragment extends KitchenSinkFragment implements OnItemClic
 	}
 	
 	private void handleListItemClick(View view, int position, long id) {
-		if(position == FORM_WIDGET_INDEX) {
-			handleFormWidgetSelection();
-		}
-	}
-	
-	private void handleFormWidgetSelection() {
-		Intent i = new Intent(LaunchActivity.ACTION_SHOW_FORM_WIDGETS);
+		Intent i = new Intent();
 		i.setPackage(mContext.getPackageName());
+		
+		if(position == FORM_WIDGET_INDEX) {
+			i.setAction(LaunchActivity.ACTION_SHOW_FORM_WIDGETS);
+		} else if(position == DIALOG_INDEX) {
+			i.setAction(LaunchActivity.ACTION_SHOW_DIALOGS);
+		} else {
+			return;
+		}
+		
 		getActivity().startActivity(i);
 	}
 }
