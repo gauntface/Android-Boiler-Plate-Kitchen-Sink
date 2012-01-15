@@ -27,5 +27,12 @@
         
         <activity
             android:name=".activity.DialogActivity"></activity>
+        
+        <activity
+            android:name=".activity.ListViewsActivity"></activity>
+        
+        <activity
+            android:name=".activity.BasicListViewActivity"></activity>
+        
     </application>
 </manifest>

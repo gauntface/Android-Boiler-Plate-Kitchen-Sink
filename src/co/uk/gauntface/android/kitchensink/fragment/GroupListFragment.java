@@ -21,9 +21,9 @@ public class GroupListFragment extends KitchenSinkFragment implements OnItemClic
 
 	private int FORM_WIDGET_INDEX;
 	private int DIALOG_INDEX;
+	private int LISTVIEW_INDEX;
 	
 	private GroupAdapter mGroupAdapter;
-	private Context mContext;
 	
 	private ListView mListView;
 	
@@ -31,16 +31,15 @@ public class GroupListFragment extends KitchenSinkFragment implements OnItemClic
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		mContext = getActivity().getApplicationContext();
-		
 		Resources resources = getResources();
 		
 		String[] listStrings = resources.getStringArray(R.array.main_list_titles);
 		
 		FORM_WIDGET_INDEX = resources.getInteger(R.integer.form_widget_index);
 		DIALOG_INDEX = resources.getInteger(R.integer.dialog_index);
+		LISTVIEW_INDEX = resources.getInteger(R.integer.listview_index);
 		
-		mGroupAdapter = new GroupAdapter(mContext, listStrings);
+		mGroupAdapter = new GroupAdapter(getApplicationContext(), listStrings);
 	}
 	
 	@Override
@@ -72,12 +71,14 @@ public class GroupListFragment extends KitchenSinkFragment implements OnItemClic
 	
 	private void handleListItemClick(View view, int position, long id) {
 		Intent i = new Intent();
-		i.setPackage(mContext.getPackageName());
+		i.setPackage(getApplicationContext().getPackageName());
 		
 		if(position == FORM_WIDGET_INDEX) {
 			i.setAction(LaunchActivity.ACTION_SHOW_FORM_WIDGETS);
 		} else if(position == DIALOG_INDEX) {
 			i.setAction(LaunchActivity.ACTION_SHOW_DIALOGS);
+		} else if(position == LISTVIEW_INDEX) {
+			i.setAction(LaunchActivity.ACTION_SHOW_LISTVIEWS);
 		} else {
 			return;
 		}

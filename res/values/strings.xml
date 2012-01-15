@@ -195,4 +195,12 @@
     <string name="dialogs_title_basic_dialog">Basic Dialog</string>
     <string name="dialogs_title_alert_dialog">Alert Dialog</string>
     
+    <!-- ListViews -->
+    <string name="listviews_basic_listview">Basic ListView</string>
+    <string name="listviews_expandable_listview">Exapandable ListView</string>
+    <string name="listviews_scrollview">Scrollview</string>
+    <string name="listviews_horizontal_scrollview">Horizontal Scrollview</string>
+    
+    <string name="item">Item</string>
+    
 </resources>

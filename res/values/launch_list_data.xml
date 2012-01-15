@@ -3,8 +3,10 @@
     <string-array name="main_list_titles">
         <item>Form Widgets</item>
         <item>Dialogs</item>
+        <item>ListViews</item>
     </string-array>
     
 	<integer name="form_widget_index">0</integer>
 	<integer name="dialog_index">1</integer>
+	<integer name="listview_index">2</integer>
 </resources>
